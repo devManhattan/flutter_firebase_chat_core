@@ -5,7 +5,6 @@ import 'package:flutter_chat_types/flutter_chat_types.dart' as types;
 
 import 'firebase_chat_core_config.dart';
 import 'util.dart';
-
 /// Provides access to Firebase chat data. Singleton, use
 /// FirebaseChatCore.instance to aceess methods.
 class FirebaseChatCore {
@@ -20,7 +19,7 @@ class FirebaseChatCore {
   FirebaseChatCoreConfig config = const FirebaseChatCoreConfig(
     null,
     'rooms',
-    'users',
+    'chat_users',
   );
 
   /// Current logged in user in Firebase. Does not update automatically.
